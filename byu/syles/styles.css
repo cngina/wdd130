@@ -1,7 +1,50 @@
+
+
+a {
+    color: white;
+    margin: 40px;
+    font-size: 1.5em;
+}
+
+h1 {
+    color: steelblue; 
+    text-align: center; 
+}
+
 img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    padding: 10px;
     width: 80%;
 }
 
-p{
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+* {
+    border: 2px solid blue;
+}
+
+main p {
     width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+
 }
