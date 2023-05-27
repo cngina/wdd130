@@ -36,126 +36,208 @@ gap: 20px;
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+grid-template-columns: 50px 50px 50px 50px 50px;
+margin-bottom: 400px;
+position: relative;
+
+ 
+ 
 }
 .red2 {
   width: 100px; 
   height: 100px; 
-  background-color: red; 
+  background-color: red;
+  z-index: 1;
+  position: absolute;
+ 
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
-  background-color: green; 
+  background-color: green;
+  z-index: 2;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 50px;
+  
+
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
-  background-color: gold; 
+  background-color: gold;
+  z-index: 3;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 100px;
+
+
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  z-index: 4;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 150px;
+
 } 
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  
 }
 .red3 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1/3;
 } 
 .green3 {
-  width: 100px; 
-  height: 100px; 
+  width: 450px; 
+  height: 200px; 
   background-color: green;
+  margin-right: auto;
+
+
 } 
 .yellow3 {
-  width: 100px; 
-  height: 100px; 
+  width: 450px; 
+  height: 200px; 
   background-color: gold; 
+  margin-left: auto;
 } 
 .blue3 {
-  width: 100px;
+  width: 100%;
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  grid-column: 1/3; 
 } 
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
+  grid-template-columns: 1fr 1fr; 
+  display: block;
+  width: 50%;
+
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
+  width: 80%; 
+  height: 600px; 
   background-color: red; 
+
+  
 } 
 .green4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
+  width: 100%; 
+  height: 205px; 
+  background-color: green;
+  margin-top: -600px;
+  margin-left: 400px;
+
+  
+
 } 
 .yellow4 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: 205px; 
   background-color: gold; 
+  margin-top: -20px;
+  margin-left: 400px;
+  
 } 
 .blue4 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: 210px; 
   background-color: blue; 
+  margin-left: 400px ;
+
+  
 } 
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  height: 400px;
+  height: 500px;
+  margin-right: 20px;
+  width: 60%;
+  
 }
 .red5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: 120px; 
   background-color: red; 
 } 
 .green5 { 
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
+  width: 135px; 
+  height: 140px; 
+  background-color: green;
+  z-index: 2;
+  margin-left: 0px;
+  left: 0;
+  float: left;
 
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
+  height: 230px; 
   background-color: gold; 
+  z-index: 1;
+  font-size: 15px;
+  font-family: "times new roman";
+  
 
 } 
 .blue5 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: 120px; 
   background-color: blue; 
 } 
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+ height: 400px;
+ width: 500px;
+ position: relative;
+
+
+ 
 }
 .red6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: red; 
+  width: 400px; 
+  height: 200px; 
+  background-color: red;
+  z-index: 1; 
+  margin-left: 150px;
+
 } 
 .green6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
+  width: 200px; 
+  height: 200px; 
+  background-color: green;
+  margin-right: 90%; 
+  margin-bottom: 100px;
+  padding-bottom: 10px;
 } 
 .yellow6 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 400px; 
   background-color: gold; 
+  margin-left: 550px;
+  
+
 } 
 .blue6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
+  width: 400px; 
+  height: 400px; 
+  background-color: blue;
+  margin-left: 300px;
+  z-index: 1;
+  
+  
 } 
 
 
