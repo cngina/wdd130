@@ -64,7 +64,6 @@ main section {
 #background {
     height: 725px;
     background-color: rgb(188, 171, 70);
-    color: blue;
     grid-column: 1/11;
     grid-row: 4/9;
 }
@@ -240,6 +239,127 @@ main section img {
     box-sizing: border-box;
 }
 
+
+/* css for the subpage*/
+
+.rafting65 {
+    width: 50%;
+}
+
+.summer-booking {
+    font-size: 30px;
+    font-family: "merienda";
+    text-decoration: solid;
+}
+
+.highlights {
+    font-size: 30px;
+    font-family: "merienda";
+    text-decoration: solid;
+}
+
+.encounters {
+    font-size: 30px;
+    font-family: "merienda";
+    text-decoration: solid;
+}
+
+
+#container {
+    height: 850px;
+    background-color: rgb(188, 171, 70);
+    grid-column: 1/11;
+    grid-row: 4/9;
+    margin-top: -100px;
+    
+    
+}
+.msg1 {
+    background-color: #2e4f3c;
+    color: rgb(188, 171, 70);
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 30%;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: -450px;
+    font-size: 22px;
+    z-index: 10;
+    position: relative;
+
+}
+
+
+
+.msg2 {
+    background-color: rgb(188, 171, 70);
+    padding: 30px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 30%;
+    height: 50%;
+    margin-left: 47em;
+    margin-top: -350px;
+    font-size: 22px;
+}
+
+.msg3 {
+    text-align: center;
+    background-color: rgb(188, 171, 70);
+    margin-block: 200px;
+    height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.msg4 {
+    background-color: #2e4f3c;
+    color: rgb(188, 171, 70);
+    width: 45%;
+    height: 70%;
+    margin-left: 50px;
+    margin-top: -750px;
+    font-size: 22px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    text-align: left;
+    letter-spacing: 1.7px;
+}
+
+.msg5 {
+    background-color: #2e4f3c;
+    color: rgb(188, 171, 70);
+    grid-column: 6/10;
+    grid-row: 6/7;
+    width: 45%;
+    height: 70%;
+    margin-left: 37em;
+    margin-top: -640px;
+    font-size: 22px;
+    text-align: left;
+    line-height: -2.8;
+    letter-spacing: 1.4px;
+
+}
+
+.scorpion, .sheep {
+    font-family: "merienda";
+    color: rgb(188, 171, 70);
+    font-size: larger;
+    text-align: center;
+}
+
+
+
+
+.scorpions, .big-sheep {
+    float: left;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -282,15 +402,3 @@ main section img {
     }
 }
 
-.main-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-}
-
-#background {
-    height: 725px;
-    background-color: rgb(188, 171, 70);
-    color: blue;
-    grid-column: 1/11;
-    grid-row: 4/9;
-}
