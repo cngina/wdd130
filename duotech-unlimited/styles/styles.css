@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Lora&family=Merienda:wght@500&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 50px;
+}
+
+nav a {
+    text-align: center;
+    color: rgb(240, 183, 11);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    
+}
+
+nav a:hover {
+    background-color: rgb(240, 183, 11);
+    color: white;
+  
+}
+
+main section {
+    text-align: center;
+    
+}
+
+
+footer {
+    background-color: #050710;
+    color: rgb(213, 167, 28);  
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 50px;
+    font-size: 22px;
+}
+footer a {
+    background-color: #050710;
+    color: rgb(213, 167, 28);
+    text-decoration: none;
+    
+}
+footer a:hover {
+    background-color: rgb(188, 171, 70);
+    color: white;
+}  
+
+footer .social img {
+    padding-top: 15px;
+    font-size: larger;
+}
+
+footer p {
+    font-size: 22px;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.logo {
+    width: 100px;
+}
+
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+
+.coding-photo2 {
+    margin-left: 65em;
+    width: 40%;
+    height: 100%;
+    margin: 0px 0px 15px 20px;
+    float: right;
+    }
+
+.web2-photo {
+    width: 50%;
+    height: 20%;
+    padding: 30px;
+    margin-right: 50px;
+
+    
+}
+
+header {
+    background-color: #050710;
+    font-family: 'Lora', 'Lucida Sans Regular', 'Lucida Grande';
+    display: grid;
+    grid-template-columns: 150px auto;
+    }
+
+
+
+.msg1, .msg2, .msg3 {
+    text-align: left;
+    color: black;
+    font-size: 18px;
+
+}
+
+.msg4 {
+    background-color: black;
+    color: rgb(213, 167, 28);
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    width: 35%;
+    height: 50%;
+    margin-left: 35em;
+    margin-top: -400px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1.4px;
+    z-index: 10;
+    position: relative;
+
+}
+
+
+#container {
+    background-color: rgb(213, 167, 30);
+    height: 950px;
+}
+
+
+
+h1, h2, h3, h4 {
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* page 2 css*/
+
+.msgp2 {
+
+    background-color: rgb(213, 167, 28);
+    color: #050710;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    width: 70%;
+    height: 250px;
+    font-size: 20px;
+    margin-left: 270px;
+    line-height: 1.4;
+    letter-spacing: 1.4px;
+    font-weight: 400;
+
+} 
+
+
+
+.comp-photo {
+    width: 40%;
+    height: 40%;
+    margin-left: 130px;
+    position: relative;
+    bottom: -20px;
+
+
+
+}
+.comp-photo2 {
+    width: 40%;
+    height: 70%;
+    margin-top: -850px;
+    margin-left: 850px;
+
+
+}
+
+
+/* css for page 3 */
+
+.tech-photo {
+    width: 100%;
+    margin-right:  20px;
+
+}
+
+.tech-photo2 {
+    width: 100%;
+    margin-top: -100px;
+  
+}
+
+.msgp3 {
+
+    background-color: rgb(213, 167, 28);
+    color: #050710;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    width: 60%;
+    height: 400px;
+    font-size: 24px;
+    margin-left: 270px;
+    margin-top: -100px;
+    line-height: 1.4;
+    letter-spacing: 1.4px;
+    font-weight: 400;
+    z-index: 10;
+    position: relative;
+
+} 
