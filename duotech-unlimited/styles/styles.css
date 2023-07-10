@@ -36,7 +36,7 @@ main section {
 footer {
     background-color: #050710;
     color: rgb(213, 167, 28);  
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
